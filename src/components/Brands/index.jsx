@@ -1,4 +1,3 @@
-import { Brand } from "@/types/brand";
 import Image from "next/image";
 import brandsData from "./brandsData";
 
@@ -22,7 +21,7 @@ const Brands = () => {
 
 export default Brands;
 
-const SingleBrand = ({ brand }: { brand: Brand }) => {
+const SingleBrand = ( brand ) => {
   const { href, image, imageLight, name } = brand;
 
   return (

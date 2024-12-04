@@ -13,9 +13,6 @@ const crossIcon = (
 const OfferList = ({
   text,
   status,
-}: {
-  text: string;
-  status: "active" | "inactive";
 }) => {
   return (
     <div className="mb-3 flex items-center">
