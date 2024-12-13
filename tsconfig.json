@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "baseUrl": ".",
     "paths": {
-			"@/*": ["./src/*"]
-		},
+      "@/*": [
+        "./src/*"
+      ]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -21,8 +27,62 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "ES2017"
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx", "src/components/Footer/index.jsx", "src/components/About/AboutSectionOne.jsx", "src/components/About/AboutSectionTwo.jsx", "src/components/Blog/blogData.jsx", "src/components/Blog/index.jsx", "src/components/Blog/RelatedPost.jsx", "src/components/Blog/SharePost.jsx", "src/components/Blog/SingleBlog.jsx", "src/components/Blog/TagButton.jsx", "src/components/Brands/brandsData.jsx", "src/components/Brands/index.jsx", "src/components/Common/Breadcrumb.jsx", "src/components/Common/ScrollUp.jsx", "src/components/Common/SectionTitle.jsx", "src/components/Contact/index.jsx", "src/components/Contact/NewsLatterBox.jsx", "src/components/Features/featuresData.jsx", "src/components/Features/index.jsx", "src/components/Features/SingleFeature.jsx", "src/components/Header/index.jsx", "src/components/Header/menuData.jsx", "src/components/Header/ThemeToggler.jsx", "src/components/Hero/index.jsx", "src/components/Pricing/index.jsx", "src/components/Pricing/PricingBox.jsx", "src/components/Pricing/OfferList.jsx", "src/components/ScrollToTop/index.jsx", "src/components/Testimonials/index.jsx", "src/components/Testimonials/SingleTestimonial.jsx", "src/components/Video/index.jsx", "src/types/blog.js", "src/types/brand.js", "src/types/feature.js", "src/types/menu.js", "src/types/testimonial.js", "src/app/about/page.jsx", "src/app/blog/page.jsx", "src/app/blog-details/page.jsx", "src/app/blog-sidebar/page.jsx", "src/app/contact/page.jsx", "src/app/error/page.jsx", "src/app/signin/page.jsx", "src/app/signup/page.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/app/providers.jsx"],
-  "exclude": ["node_modules"]
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/Footer/index.jsx",
+    "src/components/About/AboutSectionOne.jsx",
+    "src/components/About/AboutSectionTwo.jsx",
+    "src/components/Blog/blogData.jsx",
+    "src/components/Blog/index.jsx",
+    "src/components/Blog/RelatedPost.jsx",
+    "src/components/Blog/SharePost.jsx",
+    "src/components/Blog/SingleBlog.jsx",
+    "src/components/Blog/TagButton.jsx",
+    "src/components/Brands/brandsData.jsx",
+    "src/components/Brands/index.jsx",
+    "src/components/Common/Breadcrumb.jsx",
+    "src/components/Common/ScrollUp.jsx",
+    "src/components/Common/SectionTitle.jsx",
+    "src/components/Contact/index.jsx",
+    "src/components/Contact/NewsLatterBox.jsx",
+    "src/components/Features/featuresData.jsx",
+    "src/components/Features/index.jsx",
+    "src/components/Features/SingleFeature.jsx",
+    "src/components/Header/index.jsx",
+    "src/components/Header/menuData.jsx",
+    "src/components/Header/ThemeToggler.jsx",
+    "src/components/Hero/index.jsx",
+    "src/components/Pricing/index.jsx",
+    "src/components/Pricing/PricingBox.jsx",
+    "src/components/Pricing/OfferList.jsx",
+    "src/components/ScrollToTop/index.jsx",
+    "src/components/Testimonials/index.jsx",
+    "src/components/Testimonials/SingleTestimonial.jsx",
+    "src/components/Video/index.jsx",
+    "src/types/blog.js",
+    "src/types/brand.js",
+    "src/types/feature.js",
+    "src/types/menu.js",
+    "src/types/testimonial.js",
+    "src/app/about/page.jsx",
+    "src/app/blog/page.jsx",
+    "src/app/blog-details/page.jsx",
+    "src/app/blog-sidebar/page.jsx",
+    "src/app/contact/page.jsx",
+    "src/app/error/page.jsx",
+    "src/app/signin/page.jsx",
+    "src/app/signup/page.jsx",
+    "src/app/layout.jsx",
+    "src/app/page.jsx",
+    "src/app/providers.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
