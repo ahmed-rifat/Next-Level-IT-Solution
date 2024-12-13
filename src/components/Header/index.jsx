@@ -64,7 +64,7 @@ const Header = () => {
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/images/logo/NextLevelIT.jpg"
+                  src="/images/logo/NextLevelIT_dark.png"
                   alt="logo"
                   width={140}
                   height={30}
